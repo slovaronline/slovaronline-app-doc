@@ -71,11 +71,13 @@ GET https://*.slovaronline.com/api/v1-alpha/phrase?q=backdoor&api_key=YOUR_API_K
 **Response**:
 ```json
 {
-  "result": {
-    "phrase": "backdoor",
-    "full": "https://*.slovaronline.com/337-backdoor",
-    "description": "за спиной у соперника, букв. `через заднюю дверь`"
-  },
+  "result": [
+    {
+      "phrase": "backdoor",
+      "full": "https://*.slovaronline.com/337-backdoor",
+      "description": "за спиной у соперника, букв. `через заднюю дверь`"
+    }
+  ],
   "status": "ok"
 }
 ```
